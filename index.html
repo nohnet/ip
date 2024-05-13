@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Nation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+                margin: 0 auto;
+            }
+            .hero-content {
+                text-align: center;
+            }
+            .menu-grid {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+            }
+            .menu-item {
+                text-align: center;
+            }
+            .testimonials .menu-grid,
+            .outlets .menu-grid {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+            }
+            footer .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .testimonials-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .testimonial {
+                text-align: center;
+            }
+            .testimonial img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Images/logo-regular-free-img.png">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#ingredients">Our Menu</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#outlets">Our Outlets</a></li>
+                    <li><a href="#app">Download App</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <img src="Images/hero-01-free-img.png">
+        <div class="container">
+            <div class="hero-content">
+                    <h1>The Smokin Burger</h1>
+                    <p>Only $12.99</p>
+                    <p>20% DISCOUNT</p>
+                    <p>On your first order, if you order online through our App!</p>
+                    <a href="#menu" class="cta-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="ingredients" class="ingredients">
+        <div class="container">
+            <h2>Baked with Natural Ingredients</h2>
+            <ul>
+                <li>Fresh Buns</li>
+                <li>Lettuce Leaf</li>
+                <li>Organic Onions</li>
+                <li>Glow Cheese</li>
+                <li>Quality Meat</li>
+                <li>Homemade Bacon</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Choose and Enjoy</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="Images/burger.png" alt="Burger 1">
+                    <h3>Chicken Burger</h3>
+                    <p>$4.50</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/burger-02-free-img.png" alt="Burger 2">
+                    <h3>Fatboy Burger</h3>
+                    <p>$3.25</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/burger-03-free-img.png" alt="Burger 3">
+                    <h3>Classic Smash</h3>
+                    <p>$4.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/burger-04-free-img.png" alt="Burger 4">
+                    <h3>Burger Nine</h3>
+                    <p>$5.15</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/burger-05-free-img.png" alt="Burger 5">
+                    <h3>Beef Burger</h3>
+                    <p>$2.95</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/burger-06-free-img.png" alt="Burger 6">
+                    <h3>Bacon Burger</h3>
+                    <p>$3.50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Our Customer Reviews</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="Images/testimonial-01-free-img.jpg" alt="Burger 1">
+                    <h3>Patricia Robert</h3>
+                    <p>Delicious food and a very nice lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        dolore magna.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/testimonial-13-free-img.jpg" alt="Burger 2">
+                    <h3>David William</h3>
+                    <p>The best burger I have ever had elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam,
+                        quis nostrud exercitation.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/testimonial-03-free-img.jpg" alt="Burger 3">
+                    <h3>Linda Steven</h3>
+                    <p>Very fresh food and elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco.</p>
+                </div>
+    </section>
+
+    <section id="outlets" class="outlets">
+        <div class="container">
+            <h2>Find an Outlet Near You</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="Images/outlet-01-free-img.jpg" alt="Burger 1">
+                    <h3>Outlet 1 - 762 Fulton St San Francisco, California(CA), 94102
+                        (415) 834-5089t</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/outlet-02-free-img.jpg" alt="Burger 2">
+                    <h3>Outlet 2 - 66 Ceres St San Francisco, California(CA), 94124
+                        (415) 931-1698</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Images/outlet-03-free-img.jpg" alt="Burger 3">
+                    <h3>Outlet 3 - 766 Sutter St San Francisco, California(CA), 94109
+                        (415) 647-1210</h3>
+                </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="logo"><img src="Images/logo-regular-free-img.png"></div>
+            <div class="social-icons">
+                <a href="#" class="icon"><img src="Images/logos-01-free-img.jpg"></a>
+                <a href="#" class="icon"><img src="Images/logos-02-free-img.jpg"></a>
+                <a href="#" class="icon"><img src="Images/logos-03-free-img.jpg"></a>
+            </div>
+            <p>&copy; 2024 Burger Nation. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
